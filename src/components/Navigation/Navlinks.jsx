@@ -1,6 +1,6 @@
 import React from "react";
 import { Microscope } from "lucide-react";
-
+import bharatlogo from "../../constants/";
 import { Link } from "react-router";
 
 const Navlinks = () => {
@@ -9,7 +9,7 @@ const Navlinks = () => {
      <Link to="/">
           <div className="flex items-center">
             <img
-              src="./src/assets/testing.jpg" // Replace with your actual logo path
+              src={bharatlogo} // Replace with your actual logo path
               alt="Bharat Testing Laboratory Logo"
               className="h-12 w-auto md:h-15 lg:h-11" // Adjust size as needed
             />

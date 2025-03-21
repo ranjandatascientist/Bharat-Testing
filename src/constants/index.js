@@ -1,5 +1,5 @@
 import avatar from "../assets/avatar.png";
-
+import bharatlogo from "../assets/testing.jpg";
 import c1 from "../assets/c-1.png";
 import c2 from "../assets/c-2.png";
 import c3 from "../assets/c-3.png";
@@ -163,6 +163,8 @@ export const SERVICES_ENVIRONMENTAL = [
   "Ambient and Point Source Noise Monitoring",
   "Microbiological testing",
 ];
+
+export default bharatlogo;  
 
 export const Testimonials = [
   {

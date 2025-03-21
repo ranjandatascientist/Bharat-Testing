@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { LINKS } from "../../constants/";
 import { useState } from "react";
 import { X, AlignJustify } from "lucide-react";
+import bharatlogo from "../../constants/";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
         <Link to="/">
           <div className="flex items-center">
             <img
-              src="/src/assets/testing.jpg" // Replace with your actual logo path
+              src= {bharatlogo}// Replace with your actual logo path
               alt="Bharat Testing Laboratory Logo"
               className="h-12 w-auto md:h-15 lg:h-11" // Adjust size as needed
             />

@@ -42,11 +42,7 @@ const HeroContent = () => {
             Request a Test
           </button>
         </Link>
-        <Link to={"../../about"}>
-          <button className="bg-transparent border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:bg-opacity-20 transition-colors duration-300">
-            Our Process
-          </button>
-        </Link>
+        
       </div>
     </div>
   );

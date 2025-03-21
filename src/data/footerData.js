@@ -1,6 +1,6 @@
 export const footerSections = [
   {
-    title: "Bharat Testing Labarotary",
+    title: "Bharat Testing Laboratory",
     content: "Leading the way in advanced laboratory testing solutions.",
   },
   {

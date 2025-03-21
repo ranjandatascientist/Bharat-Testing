@@ -49,7 +49,7 @@ const Testimonial = () => {
     <section className="py-12 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-center items-center flex-col mb-10">
-          <h2 className="text-3xl font-semibold text-slate-800">Leadership Team</h2>
+          <h2 className="text-3xl font-semibold text-slate-800">Core Team</h2>
           <div className="w-20 h-1 bg-blue-600 mt-4 mb-2"></div>
         </div>
         
